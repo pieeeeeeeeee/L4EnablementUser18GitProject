@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: L4EnablementUser18GitProject
+  gitServerName: L4Git
+  gitUrl: https://github.com/pieeeeeeeeee
+  gitUsername: pieeeeeeeeee
+  gitBranch: main
