@@ -7,3 +7,24 @@ packages:
   gitUrl: https://github.com/pieeeeeeeeee
   gitUsername: pieeeeeeeeee
   gitBranch: main
+services:
+- serviceName: project.l4enablementuser18git.documenttypes:Customer
+  packages:
+  - name: L4EnablementUser18GitProject
+    version: "1.0"
+- serviceName: project.l4enablementuser18git.documenttypes:Shipment
+  packages:
+  - name: L4EnablementUser18GitProject
+    version: "1.0"
+- serviceName: project.l4enablementuser18git.integrations:shipOrder
+  packages:
+  - name: L4EnablementUser18GitProject
+    version: "1.0"
+- serviceName: CustomerData.impl:getCustomerbyID
+  packages:
+  - name: CustomerData
+    version: "1.0"
+- serviceName: pub.cache:get
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
