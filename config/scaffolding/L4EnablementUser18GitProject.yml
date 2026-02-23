@@ -14,6 +14,24 @@ packages:
   gitUsername: Christian-Kopecki
   gitBranch: main
 services:
+- serviceName: project.l4enablementuser18git.integrations:failureTransaction
+  packages:
+  - name: L4EnablementUser18GitProject
+    version: "1.0"
+  - name: CustomerData
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: pub.flow:setCustomContextID
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
 - serviceName: project.l4enablementuser18git.integrations:shipOrder
   packages:
   - name: L4EnablementUser18GitProject
@@ -34,11 +52,3 @@ services:
     version: "1.0"
   - name: CustomerData
     version: "1.0"
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2070
-- serviceName: pub.flow:setCustomContextID
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2070
