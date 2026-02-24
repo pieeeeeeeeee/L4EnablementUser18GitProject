@@ -32,6 +32,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2070
+- serviceName: project.l4enablementuser18git.integrations:helloWorld
+  packages:
+  - name: L4EnablementUser18GitProject
+    version: "1.0"
+  - name: CustomerData
+    version: "1.0"
 - serviceName: project.l4enablementuser18git.integrations:shipOrder
   packages:
   - name: L4EnablementUser18GitProject
