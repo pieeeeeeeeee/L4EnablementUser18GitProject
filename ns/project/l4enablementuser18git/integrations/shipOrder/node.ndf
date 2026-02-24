@@ -19,6 +19,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">Header</value>
@@ -32,6 +33,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed51-1122-11f1-bbb1-4d99bfd14391</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">OrderID</value>
@@ -45,6 +47,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed52-1122-11f1-bbb1-4d99bfd14391</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">TransactionID</value>
@@ -58,6 +61,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed53-1122-11f1-bbb1-4d99bfd14391</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">OrderDate</value>
@@ -71,6 +75,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed54-1122-11f1-bbb1-4d99bfd14391</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">TotalCost</value>
@@ -85,6 +90,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed55-1122-11f1-bbb1-4d99bfd14391</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">IsValid</value>
@@ -98,6 +104,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed56-1122-11f1-bbb1-4d99bfd14391</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">Sender</value>
@@ -110,6 +117,9 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed56-1122-11f1-bbb1-4d99bfd14391/b3a23b70-1122-11f1-bbb1-4d99bfd14391</value>
+                  </record>
                   <value name="is_public">false</value>
                   <value name="field_name">ID</value>
                   <value name="field_type">string</value>
@@ -125,6 +135,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed57-1122-11f1-bbb1-4d99bfd14391</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">Receiver</value>
@@ -137,6 +148,9 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="id">b3a1ed50-1122-11f1-bbb1-4d99bfd14391/b3a1ed57-1122-11f1-bbb1-4d99bfd14391/b3a23b71-1122-11f1-bbb1-4d99bfd14391</value>
+                  </record>
                   <value name="is_public">false</value>
                   <value name="field_name">ID</value>
                   <value name="field_type">string</value>
@@ -245,7 +259,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">l4enablementuser18</value>
-    <value name="lastModifiedDate">1770863513203</value>
+    <value name="lastModifiedDate">1771897618790</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -269,6 +283,8 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -287,6 +303,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -302,6 +319,7 @@
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">1.0</value>
       </record>
       <null name="/1/1"/>
       <null name="/1/2"/>
@@ -325,14 +343,8 @@
       <record name="/1/17" javaclass="com.wm.util.Values">
       </record>
     </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
-    <value name="createdDate">1770863513203</value>
   </record>
-  <value name="svc_in_validator_options">none</value>
+  <value name="svc_in_validator_options">default</value>
   <value name="svc_out_validator_options">none</value>
   <value name="auditoption">2</value>
   <null name="auditfields_input"/>
