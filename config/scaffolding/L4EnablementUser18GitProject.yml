@@ -14,6 +14,12 @@ packages:
   gitUsername: Christian-Kopecki
   gitBranch: main
 services:
+- serviceName: project.l4enablementuser18git.integrations:DepAnwhr
+  packages:
+  - name: L4EnablementUser18GitProject
+    version: "1.0"
+  - name: CustomerData
+    version: "1.0"
 - serviceName: project.l4enablementuser18git.integrations:failureTransaction
   packages:
   - name: L4EnablementUser18GitProject
