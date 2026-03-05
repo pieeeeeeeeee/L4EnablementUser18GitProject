@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: L4EnablementUser18GitProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: OrderShipment
+    type: workflow
+    uid: fl61dc31db529a48740b97ca
+    stepId: a4
+    reference: project.l4enablementuser18git.integrations:shipOrder
