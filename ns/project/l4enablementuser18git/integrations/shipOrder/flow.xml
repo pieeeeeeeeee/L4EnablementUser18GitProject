@@ -521,9 +521,6 @@
 <MAPCOPY FROM="/Items;2;1" TO="/Shipment;4;0;project.l4enablementuser18git.documenttypes:Shipment/Items;2;1">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.l4enablementuser18git.documenttypes:Customer/id;1;0" TO="/Shipment;4;0;project.l4enablementuser18git.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/customerID;1;0">
-</MAPCOPY>
-
 <MAPCOPY FROM="/Customer;4;0;project.l4enablementuser18git.documenttypes:Customer/first-name;1;0" TO="/Shipment;4;0;project.l4enablementuser18git.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/first-name;1;0">
 </MAPCOPY>
 
@@ -548,15 +545,6 @@
 <MAPCOPY FROM="/Customer;4;0;project.l4enablementuser18git.documenttypes:Customer/address;2;0/zip;1;0" TO="/Shipment;4;0;project.l4enablementuser18git.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/zip;1;0">
 </MAPCOPY>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.l4enablementuser18git.documenttypes:Shipment/Shipment;2;0/Status;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">shipped</value>
-</Values>
-</DATA>
-</MAPSET>
-
 <MAPDELETE FIELD="/Header;2;0">
 </MAPDELETE>
 
@@ -568,5 +556,14 @@
 
 <MAPDELETE FIELD="/Customer;4;0;project.l4enablementuser18git.documenttypes:Customer">
 </MAPDELETE>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.l4enablementuser18git.documenttypes:Shipment/Shipment;2;0/Status;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">shipped</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 </FLOW>

@@ -260,7 +260,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">l4enablementuser18</value>
-    <value name="lastModifiedDate">1775617337427</value>
+    <value name="lastModifiedDate">1776047229298</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -314,13 +314,8 @@
           <value name="serviceName">pub.date:getCurrentDateString</value>
           <value name="transformerSupport">true</value>
         </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">date</value>
-          <value name="groupDisplayName">Date</value>
-        </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">1.0</value>
       </record>
       <null name="/1/1"/>
       <null name="/1/2"/>
@@ -333,16 +328,15 @@
       <null name="/1/9"/>
       <null name="/1/10"/>
       <null name="/1/11"/>
-      <null name="/1/12"/>
-      <null name="/1/13"/>
+      <record name="/1/12" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/1/13" javaclass="com.wm.util.Values">
+      </record>
       <record name="/1/14" javaclass="com.wm.util.Values">
       </record>
       <record name="/1/15" javaclass="com.wm.util.Values">
       </record>
-      <record name="/1/16" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/1/17" javaclass="com.wm.util.Values">
-      </record>
+      <null name="/1/16"/>
     </record>
   </record>
   <value name="svc_in_validator_options">default</value>
