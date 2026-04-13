@@ -14,19 +14,10 @@ packages:
   gitUsername: Christian-Kopecki
   gitBranch: main
 - name: WmJDBCAdapter
+  version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:IBM
-  packages:
-  - name: L4EnablementUser18GitProject
-    version: "1.0"
-  - name: CustomerData
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
 - serviceName: project.l4enablementuser18git.integrations:failureTransaction
   packages:
   - name: L4EnablementUser18GitProject
@@ -71,7 +62,7 @@ services:
     wpmRegistry: licensed
 - serviceName: CustomerData.impl:getCustomerbyID
   packages:
-  - name: CustomerData
+  - name: MFEnablement
     version: "1.0"
 - serviceName: pub.cache:get
   packages:
@@ -88,49 +79,49 @@ services:
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
 configurationVariables:
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.driverType
-  : Progress® DataDirect®
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.trustStore
-  : ""
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.otherProperties
-  : loginTimeout=60;
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.databaseName
-  : ORCLCDB
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.poolable
-  : "false"
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.transactionType
-  : NO_TRANSACTION
   ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.poolIncrementSize
   : "1"
   ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.dbType
   : ORACLE
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.user
-  : APPADMIN
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.datasourceClass
-  : com.wm.dd.jdbcx.oracle.OracleDataSource
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.portNumber
-  : "8443"
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.password
-  : "{AES}Z8Fjk364EiTT+z8KBYl7tYZxOqodQc1v4BdYtUdzO6E="
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.minimumPoolSize
-  : "1"
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.serverName
-  : 52.118.184.225
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.keyStore
-  : ""
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionEnabled
-  : "false"
-  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.networkProtocol
-  : ""
   ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.startupRetryCount
   : "0"
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.user
+  : APPADMIN
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.driverType
+  : Progress® DataDirect®
   ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.expireTimeout
   : "1000"
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.oracle.OracleDataSource
   ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.maximumPoolSize
   : "10"
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.minimumPoolSize
+  : "1"
   ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.blockingTimeout
   : "1000"
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.trustStore
+  : ""
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.serverName
+  : 52.118.184.225
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.otherProperties
+  : loginTimeout=60;
   ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.heartBeatInterval
   : "0"
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.keyStore
+  : ""
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.portNumber
+  : "8443"
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.databaseName
+  : ORCLCDB
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.password
+  : "{AES}Z8Fjk364EiTT+z8KBYl7tYZxOqodQc1v4BdYtUdzO6E="
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionEnabled
+  : "false"
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.L4EnablementUser18GitProject.project.l4enablementuser18git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.IBM.connectionSettings.transactionType
+  : NO_TRANSACTION
