@@ -12,3 +12,13 @@ runtimes:
     type: flow
     stepId: /0
     reference: fld_122752793_stage00.projects.fl31bd9f8d39eaf2ce2cf718.WmPackageServiceProvider.CustomerData.impl:getCustomerbyID
+  - name: SuccessFailureTransaction
+    type: workflow
+    uid: flf4db4de574a32994e89b19
+    stepId: a9
+    reference: project.techxconference.integrations:successTransaction
+  - name: SuccessFailureTransaction
+    type: workflow
+    uid: flf4db4de574a32994e89b19
+    stepId: a10
+    reference: project.techxconference.integrations:failureTransaction
